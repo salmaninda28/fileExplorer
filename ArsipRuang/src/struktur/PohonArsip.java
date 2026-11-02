@@ -89,11 +89,9 @@ public class PohonArsip {
         return simpulSaatIni;
     }
 
-    // ==========================================
+   
     // BAGIAN 2: SEARCH (MENCARI DOKUMEN)
-    // ==========================================
-
-    public DokumenArsip cariDokumen(int idDicari) {
+  public DokumenArsip cariDokumen(int idDicari) {
 
         SimpulArsip penelusuran = akarArsip;
 
@@ -124,11 +122,9 @@ public class PohonArsip {
         return null;
     }
 
-    // ==========================================
+  
     // BAGIAN 3: DELETE (MENGHAPUS DOKUMEN)
-    // ==========================================
-
-    public boolean hapusDokumen(int idTarget) {
+      public boolean hapusDokumen(int idTarget) {
 
         // Memastikan dokumen tersedia
         if (cariDokumen(idTarget) == null) {
@@ -229,10 +225,8 @@ public class PohonArsip {
         return simpulTerkecil;
     }
 
-    // ==========================================
+   
     // BAGIAN 4: MENGHITUNG JUMLAH SIMPUL
-    // ==========================================
-
     public int hitungJumlahSimpul() {
         return hitungSimpulDari(akarArsip);
     }

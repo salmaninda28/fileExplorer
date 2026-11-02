@@ -9,11 +9,9 @@ import model.SimpulArsip;
 
 public class JelajahBST {
 
-    // ==========================================
-    // BAGIAN 1: INORDER TRAVERSAL
+    
+    
     // Urutan: Kiri -> Root -> Kanan
-    // ==========================================
-
     public List<DokumenArsip> jelajahInorder(PohonArsip sumberPohon) {
 
         List<DokumenArsip> daftarHasil = new ArrayList<>();
@@ -52,11 +50,8 @@ public class JelajahBST {
         );
     }
 
-    // ==========================================
-    // BAGIAN 2: PREORDER TRAVERSAL
+    
     // Urutan: Root -> Kiri -> Kanan
-    // ==========================================
-
     public List<DokumenArsip> jelajahPreorder(PohonArsip sumberPohon) {
 
         List<DokumenArsip> daftarHasil = new ArrayList<>();
@@ -95,12 +90,10 @@ public class JelajahBST {
         );
     }
 
-    // ==========================================
-    // BAGIAN 3: POSTORDER TRAVERSAL
-    // Urutan: Kiri -> Kanan -> Root
-    // ==========================================
+   
 
-    public List<DokumenArsip> jelajahPostorder(PohonArsip sumberPohon) {
+    // Urutan: Kiri -> Kanan -> Root
+     public List<DokumenArsip> jelajahPostorder(PohonArsip sumberPohon) {
 
         List<DokumenArsip> daftarHasil = new ArrayList<>();
 
